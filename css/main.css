@@ -1,0 +1,47 @@
+*{
+
+}
+
+body{
+  background-image: url("https://previews.123rf.com/images/foxaon/foxaon1603/foxaon160300554/53724839-stock-market-chart-background.jpg");
+  background-repeat: no-repeat;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width:400px;
+  margin: auto;
+}
+
+.hidden{
+  display: block;
+}
+
+
+#backgroundDiv  {
+  background-color: rgba(0, 0, 0, .5);    /*  10% opaque green */
+  display: flex;
+  justify-content: center;
+  border: solid thin black;
+  margin : 30px;
+  padding: 10px 100px 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+header{
+  color: white;
+  font-family: Arial serif;
+  padding: 3px;
+  font-size: 20px;
+}
+
+#passwordInput{
+  display: block;
+}
+
