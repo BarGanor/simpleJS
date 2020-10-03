@@ -68,7 +68,7 @@ function setSubmitBtn(){
           alert('Name can\'t be empty');
         }
        else {
-         // window.location = 'tictactoe.html';
+         // window.location = 'app.html';
          setHomePage(userName); // Function that removes login div.
        }
     }
